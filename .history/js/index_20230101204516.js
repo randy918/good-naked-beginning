@@ -39,10 +39,10 @@ const main = function () {
     console.log(value);
     makeSearchAPI_URL();
 
-    fetch(makeSearchAPI_URL())
+    fetch(searchAPI_URL)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        console.log(`data: ${data}`);
       })
       .catch((error) => {
         console.log(`Error: ${error}`);

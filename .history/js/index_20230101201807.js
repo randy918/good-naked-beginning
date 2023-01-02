@@ -3,7 +3,6 @@
 //!  121822.0826        FUNCTIONS
 
 const init = function () {
-    
   main();
 };
 
@@ -19,17 +18,6 @@ const main = function () {
   const buttonElement = document.querySelector("#search");
   const inputElement = document.querySelector("#inputValue");
 
-    const searchURLOne = "https://api.themoviedb.org/3";
-    let searchMajorCategoryTwo = "/search/movie";
-    const searchPrefixThree = "?api_key=";
-    const searchAPI_KEYFour = "ca1f26ba6eb2ba4fb641257b39d3bea7";
-    const searchQueryPrefixFive = "&query=";
-    let searchQuerySubjectSix = "furious";
-    const searchPagePrefixSeven = "&page=";
-    let searchPageEight = 1;
-
-
-
   //!  10123.1609 functions
 
   buttonElement.onclick = function (event) {
@@ -39,14 +27,8 @@ const main = function () {
     console.log(value);
     makeSearchAPI_URL();
 
-    fetch(makeSearchAPI_URL())
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(`Error: ${error}`);
-      });
+    fetch(makeSearchAPI_URL)
+    .then(res) => .then().catch();
   };
 
   function makeSearchAPI_URL() {
@@ -60,10 +42,10 @@ const main = function () {
       searchPagePrefixSeven +
       searchPageEight;
     console.log(`${searchAPI_URL}`);
-    return searchAPI_URL
   }
 
   //!  10123.161 0  main body
+
 
   //!  123122.1839  END
 };

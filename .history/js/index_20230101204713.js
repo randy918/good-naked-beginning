@@ -42,7 +42,7 @@ const main = function () {
     fetch(makeSearchAPI_URL())
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        console.log(da);
       })
       .catch((error) => {
         console.log(`Error: ${error}`);
