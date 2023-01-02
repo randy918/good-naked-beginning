@@ -28,8 +28,7 @@ const main = function () {
 
     fetch(makeSearchAPI_URL)
     .then()
-    .then()
-    .catch();
+    .then().catch();
   };
 
   function makeSearchAPI_URL() {

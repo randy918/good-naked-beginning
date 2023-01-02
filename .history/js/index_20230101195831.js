@@ -26,10 +26,7 @@ const main = function () {
     searchQuerySubjectSix = value;
     makeSearchAPI_URL();
 
-    fetch(makeSearchAPI_URL)
-    .then()
-    .then()
-    .catch();
+    fetch().then().then().catch();
   };
 
   function makeSearchAPI_URL() {

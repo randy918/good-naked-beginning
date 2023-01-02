@@ -17,3 +17,4 @@ let searchPageEight = 2
 //   searchPagePrefixSeven + 
 //   searchPageEight;
 
+  makeSearchAPI();

@@ -4,16 +4,15 @@ const searchPrefixThree = "?api_key=";
 const searchAPI_KEYFour = "ca1f26ba6eb2ba4fb641257b39d3bea7";
 const searchQueryPrefixFive = "&query=";
 let searchQuerySubjectSix = "furious";
-const searchPagePrefixSeven = "&page="
+const searchPagePrefixSeven = "&page"
 let searchPageEight = 2
 
-// let searchAPI =
-//   searchURLOne +
-//   searchMajorCategoryTwo +
-//   searchPrefixThree +
-//   searchAPI_KEYFour +
-//   searchQueryPrefixFive +
-//   searchQuerySubjectSix + 
-//   searchPagePrefixSeven + 
-//   searchPageEight;
-
+let searchAPI =
+  searchURLOne +
+  searchMajorCategoryTwo +
+  searchPrefixThree +
+  searchAPI_KEYFour +
+  searchQueryPrefixFive +
+  searchQuerySubjectSix + 
+  searchPagePrefixSeven + 
+  searchPageEight;

@@ -27,9 +27,7 @@ const main = function () {
     makeSearchAPI_URL();
 
     fetch(makeSearchAPI_URL)
-    .then()
-    .then()
-    .catch();
+    .then().then().catch();
   };
 
   function makeSearchAPI_URL() {

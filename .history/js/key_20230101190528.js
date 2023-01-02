@@ -7,13 +7,14 @@ let searchQuerySubjectSix = "furious";
 const searchPagePrefixSeven = "&page="
 let searchPageEight = 2
 
-// let searchAPI =
-//   searchURLOne +
-//   searchMajorCategoryTwo +
-//   searchPrefixThree +
-//   searchAPI_KEYFour +
-//   searchQueryPrefixFive +
-//   searchQuerySubjectSix + 
-//   searchPagePrefixSeven + 
-//   searchPageEight;
+let searchAPI =
+  searchURLOne +
+  searchMajorCategoryTwo +
+  searchPrefixThree +
+  searchAPI_KEYFour +
+  searchQueryPrefixFive +
+  searchQuerySubjectSix + 
+  searchPagePrefixSeven + 
+  searchPageEight;
 
+  
